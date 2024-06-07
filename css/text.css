@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Oxygen;
+    src: url('OxygenMono-Regular.ttf')
+}
+h1, h2, h3, button {
+	font-family: Oxygen
+}
+.number {
+	animation: shinyText 20s infinite linear;
+}
+@keyframes shinyText {
+	0% { color: #FFFFFF;}
+	50% { color: #C0C0C0;}
+	100% { color: #FFFFFF;}
+}

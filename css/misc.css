@@ -1,0 +1,28 @@
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+body {
+	background-color: #202020
+}
+button {
+	background-color: #606060;
+	border: none;
+	border-radius: 30px;
+	padding: 100px, 20px;
+	color: #C0C0C0;
+	transform: translateY(0%)
+}
+@keyframes button-tween {
+	0% {background-color: #606060; color: #C0C0C0; transform: translateY(0%);}
+	100% {background-color: #808080; color: #E0E0E0; transform: translateY(-5%);}
+}
+button:hover {
+	background-color: #808080; 
+	color: #E0E0E0;
+	transform: translateY(-5%);
+	animation: button-tween 0.5s cubic-bezier(1, 0, 0, 1);
+}
