@@ -2,11 +2,11 @@
     font-family: Oxygen;
     src: url('OxygenMono-Regular.ttf')
 }
-h1, h2, h3, button {
+h1, h2, h3, h4, h5, h6, p, button {
 	font-family: Oxygen
 }
 .number {
-	animation: shinyText 20s infinite linear;
+	animation: shinyText 15s infinite linear;
 }
 @keyframes shinyText {
 	0% { color: #FFFFFF;}

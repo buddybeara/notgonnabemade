@@ -9,8 +9,42 @@
 	<link rel="stylesheet" type="text/css" href="css/text.css" />
 </head>
 <body>
-	<h1 id="theNumber" style="text-align: center;" class=number>The Number: 0</h1>
+	<h1 id="theNumber" style="text-align: center;" class=number>Loading... (IF THIS STAYS, SOMETHING BROKE!)</h1>
+	<h5 id="numberGainOnClick" style="text-align: center;" class=number>Loading...</h5>
 		<div class ="center">
 			<button onclick="increaseNumberOnClick()" >Click to increase The Number by 1.</button>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class ="center">
+			<button onclick="announceToPlayer('Unfinished lol')" >Achievements</button>
+			<button onclick="announceToPlayer('Unfinished lol')" >The Number</button>
+		</div>
+		<br>
+		<br>
+			<div class ="center">
+			<button onclick="announceToPlayer('...')" >Upgrades</button>
+			<button onclick="announceToPlayer('...')" >Factor</button>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class ="center"> 
+			<button onclick="buyNumberUpgrade(1)" id="NumUpg1" >Multiply your Number Gain on click by 1.5.<br> Decrements your number by 25.</button>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class ="center">
+			<button onclick="buySineWave(1)" id="SineWave1" >Buy one Regular Sine wave that increments the Number.		<br> Decrements your number by 100.</button>
+		</div>
+		<br><br><br>
+		<div class ="center">
+		<button onclick="buySineWave(2)" id="SineWave2" >Buy one Squared Sine wave that increments the Regular Sine waves.		<br> Decrements your number by 10,000.</button>
+		</div>	
+		<br><br><br>
+		<div class ="center">
+		<button onclick="buySineWave(3)" id="SineWave3" >Buy one Cubed Sine wave that increments the Squared Sine waves.		<br> Decrements your number by 100,000,000.</button>
 		</div>
 </body>
