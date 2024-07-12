@@ -27,8 +27,8 @@ table {
 	margin: 0 0 3px;
 }
 .bigbutton {
-    height:20vh;
-    width:20vh;
+    height:200px;
+    width:200px;
 }
 .factorbtn {
     animation: factorbtn-tween 8s cubic-bezier(1, 0.75, 0.75, 1) infinite;
@@ -58,10 +58,6 @@ button {
 	border-radius: 30px;
 	color: #C0C0C0;
 	transform: translateY(0%);
-}
-.numberUpg {
-	height:5vh;
-	font-size:1.5vh;
 }
 @keyframes button-tween {
 	0% {background-color: #606060; color: #C0C0C0; transform: translateY(0%); border-color: #505050;}
