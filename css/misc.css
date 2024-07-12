@@ -26,20 +26,47 @@ table {
 	background-color: #404040 !important;
 	margin: 0 0 3px;
 }
+.bigbutton {
+    height:200px;
+    width:200px;
+}
+.factorbtn {
+    animation: factorbtn-tween 8s cubic-bezier(1, 0.75, 0.75, 1) infinite;
+	background-color: #AA4040;
+	color: #330000;
+	border-color: #300000;
+}
+.factor {
+    animation: factor-tween 8s cubic-bezier(1, 0.75, 0.75, 1) infinite;
+	color: #330000;
+	white-space: nowrap;
+}
+@keyframes factorbtn-tween {
+	0% {background-color: #AA4040; color: #110000;}
+	50% {background-color: #DD7070; color: #552222;}
+	100% {background-color: #AA4040; color: #110000;}
+}
+@keyframes factor-tween {
+	0% {color: #AA0000;}
+	50% {color: #DD3333;}
+	100% {color: #AA0000;}
+}
 button {
 	background-color: #606060;
-	border: none;
+	border: 3px solid;
+	border-color: #303030;
 	border-radius: 30px;
 	color: #C0C0C0;
-	transform: translateY(0%)
+	transform: translateY(0%);
 }
 @keyframes button-tween {
-	0% {background-color: #606060; color: #C0C0C0; transform: translateY(0%);}
+	0% {background-color: #606060; color: #C0C0C0; transform: translateY(0%); border-color: #505050;}
 	100% {background-color: #808080; color: #E0E0E0; transform: translateY(-5%);}
 }
-button:hover {
+.numberBtn:hover {
 	background-color: #808080; 
 	color: #E0E0E0;
 	transform: translateY(-5%);
+	border-color: #505050;
 	animation: button-tween 0.5s cubic-bezier(1, 0, 0, 1);
 }
