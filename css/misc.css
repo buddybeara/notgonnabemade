@@ -61,6 +61,7 @@ button {
 }
 .numberUpg {
 	height:5vh;
+	font-size:1.5vh;
 }
 @keyframes button-tween {
 	0% {background-color: #606060; color: #C0C0C0; transform: translateY(0%); border-color: #505050;}
