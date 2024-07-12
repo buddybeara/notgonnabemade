@@ -5,6 +5,9 @@
 h1, h2, h3, h4, h5, h6, p, strong, button {
 	font-family: Oxygen
 }
+strong {
+	font-size: 1.5vh;
+}
 .number {
 	animation: shinyText 15s infinite linear;
 }
